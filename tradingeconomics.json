@@ -1,0 +1,699 @@
+{
+  "forex": [
+    {
+      "symbol": "EURUSD",
+      "name": "Euro/US Dollar",
+      "value": 1.085,
+      "change": 0.0025,
+      "pct_change": 0.23,
+      "category": "forex",
+      "timestamp": "2026-02-07T14:44:00",
+      "bid": 1.0848,
+      "ask": 1.0852,
+      "high": 1.0865,
+      "low": 1.0821,
+      "open": 1.0832,
+      "previous_close": 1.0825
+    },
+    {
+      "symbol": "GBPUSD",
+      "name": "British Pound/US Dollar",
+      "value": 1.265,
+      "change": -0.001,
+      "pct_change": -0.08,
+      "category": "forex",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "USDJPY",
+      "name": "US Dollar/Japanese Yen",
+      "value": 149.5,
+      "change": 0.45,
+      "pct_change": 0.3,
+      "category": "forex",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "USDCHF",
+      "name": "US Dollar/Swiss Franc",
+      "value": 0.882,
+      "change": 0.0015,
+      "pct_change": 0.17,
+      "category": "forex",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "AUDUSD",
+      "name": "Australian Dollar/US Dollar",
+      "value": 0.652,
+      "change": -0.0032,
+      "pct_change": -0.49,
+      "category": "forex",
+      "timestamp": "2026-02-07T14:44:00"
+    }
+  ],
+  "indices": [
+    {
+      "symbol": "SPX",
+      "name": "S&P 500 Index",
+      "value": 4783.45,
+      "change": 25.67,
+      "pct_change": 0.54,
+      "category": "indices",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "DJI",
+      "name": "Dow Jones Industrial Average",
+      "value": 37468.12,
+      "change": 156.78,
+      "pct_change": 0.42,
+      "category": "indices",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "IXIC",
+      "name": "NASDAQ Composite",
+      "value": 15055.65,
+      "change": 147.23,
+      "pct_change": 0.99,
+      "category": "indices",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "UKX",
+      "name": "FTSE 100 Index",
+      "value": 7689.3,
+      "change": -12.45,
+      "pct_change": -0.16,
+      "category": "indices",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "DEX",
+      "name": "DAX Index",
+      "value": 16789.45,
+      "change": 45.23,
+      "pct_change": 0.27,
+      "category": "indices",
+      "timestamp": "2026-02-07T14:44:00"
+    }
+  ],
+  "commodities": [
+    {
+      "symbol": "GOLD",
+      "name": "Gold Spot",
+      "value": 2045.3,
+      "change": 12.5,
+      "pct_change": 0.61,
+      "category": "commodities",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "SILVER",
+      "name": "Silver Spot",
+      "value": 23.45,
+      "change": 0.32,
+      "pct_change": 1.38,
+      "category": "commodities",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "BRENT",
+      "name": "Brent Crude Oil",
+      "value": 78.9,
+      "change": -1.2,
+      "pct_change": -1.5,
+      "category": "commodities",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "WTI",
+      "name": "West Texas Intermediate",
+      "value": 74.35,
+      "change": -0.95,
+      "pct_change": -1.26,
+      "category": "commodities",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "NG",
+      "name": "Natural Gas",
+      "value": 2.85,
+      "change": 0.08,
+      "pct_change": 2.89,
+      "category": "commodities",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "COPPER",
+      "name": "Copper Spot",
+      "value": 3.85,
+      "change": 0.05,
+      "pct_change": 1.32,
+      "category": "commodities",
+      "timestamp": "2026-02-07T14:44:00"
+    }
+  ],
+  "bonds": [
+    {
+      "symbol": "USGG10YR",
+      "name": "US 10Y Government Bond",
+      "value": 4.25,
+      "change": 0.05,
+      "pct_change": 1.19,
+      "category": "bonds",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "USGG2YR",
+      "name": "US 2Y Government Bond",
+      "value": 4.85,
+      "change": 0.02,
+      "pct_change": 0.41,
+      "category": "bonds",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "DE10YB",
+      "name": "German 10Y Bond",
+      "value": 2.45,
+      "change": -0.03,
+      "pct_change": -1.21,
+      "category": "bonds",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "GB10YR",
+      "name": "UK 10Y Gilt",
+      "value": 3.95,
+      "change": 0.01,
+      "pct_change": 0.25,
+      "category": "bonds",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "JP10YR",
+      "name": "Japanese 10Y Bond",
+      "value": 0.75,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "category": "bonds",
+      "timestamp": "2026-02-07T14:44:00"
+    }
+  ],
+  "crypto": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin/USD",
+      "value": 52345.0,
+      "change": 1250.0,
+      "pct_change": 2.45,
+      "category": "crypto",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum/USD",
+      "value": 2890.0,
+      "change": 85.0,
+      "pct_change": 3.03,
+      "category": "crypto",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana/USD",
+      "value": 98.5,
+      "change": -2.3,
+      "pct_change": -2.28,
+      "category": "crypto",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "XRP",
+      "name": "Ripple/USD",
+      "value": 0.62,
+      "change": 0.01,
+      "pct_change": 1.64,
+      "category": "crypto",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "ADA",
+      "name": "Cardano/USD",
+      "value": 0.58,
+      "change": 0.02,
+      "pct_change": 3.57,
+      "category": "crypto",
+      "timestamp": "2026-02-07T14:44:00"
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc",
+      "value": 185.5,
+      "change": 2.35,
+      "pct_change": 1.28,
+      "category": "stocks",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corp",
+      "value": 378.9,
+      "change": 4.2,
+      "pct_change": 1.12,
+      "category": "stocks",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc",
+      "value": 142.35,
+      "change": -1.8,
+      "pct_change": -1.25,
+      "category": "stocks",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc",
+      "value": 178.45,
+      "change": 3.1,
+      "pct_change": 1.77,
+      "category": "stocks",
+      "timestamp": "2026-02-07T14:44:00"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corp",
+      "value": 495.2,
+      "change": 15.8,
+      "pct_change": 3.29,
+      "category": "stocks",
+      "timestamp": "2026-02-07T14:44:00"
+    }
+  ],
+  "etfs": [],
+  "derivatives": [],
+  "macro_us": [
+    {
+      "country": "US",
+      "indicator_name": "GDP Growth",
+      "value": 2.4,
+      "previous": 2.1,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "Bureau of Economic Analysis",
+      "period": "Q4 2025"
+    },
+    {
+      "country": "US",
+      "indicator_name": "Inflation Rate",
+      "value": 3.1,
+      "previous": 3.4,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "Bureau of Labor Statistics"
+    },
+    {
+      "country": "US",
+      "indicator_name": "Unemployment Rate",
+      "value": 3.7,
+      "previous": 3.8,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "Bureau of Labor Statistics"
+    },
+    {
+      "country": "US",
+      "indicator_name": "Interest Rate",
+      "value": 5.5,
+      "previous": 5.5,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "",
+      "source": "Federal Reserve"
+    },
+    {
+      "country": "US",
+      "indicator_name": "Manufacturing PMI",
+      "value": 49.1,
+      "previous": 48.5,
+      "unit": "points",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "ISM"
+    }
+  ],
+  "macro_uk": [
+    {
+      "country": "UK",
+      "indicator_name": "GDP Growth",
+      "value": 0.6,
+      "previous": 0.4,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "ONS"
+    },
+    {
+      "country": "UK",
+      "indicator_name": "Inflation Rate",
+      "value": 3.9,
+      "previous": 4.2,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "ONS"
+    },
+    {
+      "country": "UK",
+      "indicator_name": "Unemployment Rate",
+      "value": 4.2,
+      "previous": 4.1,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "ONS"
+    }
+  ],
+  "macro_eu": [
+    {
+      "country": "EU",
+      "indicator_name": "GDP Growth",
+      "value": 0.5,
+      "previous": 0.3,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "Eurostat"
+    },
+    {
+      "country": "EU",
+      "indicator_name": "Inflation Rate",
+      "value": 2.4,
+      "previous": 2.7,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "Eurostat"
+    },
+    {
+      "country": "EU",
+      "indicator_name": "Unemployment Rate",
+      "value": 6.5,
+      "previous": 6.6,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "Eurostat"
+    }
+  ],
+  "macro_jp": [
+    {
+      "country": "JP",
+      "indicator_name": "GDP Growth",
+      "value": 1.2,
+      "previous": 0.9,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "Cabinet Office"
+    },
+    {
+      "country": "JP",
+      "indicator_name": "Inflation Rate",
+      "value": 2.6,
+      "previous": 2.8,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "Statistics Bureau"
+    }
+  ],
+  "macro_cn": [
+    {
+      "country": "CN",
+      "indicator_name": "GDP Growth",
+      "value": 5.2,
+      "previous": 4.8,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "National Bureau of Statistics"
+    },
+    {
+      "country": "CN",
+      "indicator_name": "Inflation Rate",
+      "value": 0.5,
+      "previous": 0.8,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "National Bureau of Statistics"
+    },
+    {
+      "country": "CN",
+      "indicator_name": "Manufacturing PMI",
+      "value": 50.9,
+      "previous": 49.8,
+      "unit": "points",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "NBS"
+    }
+  ],
+  "macro_de": [
+    {
+      "country": "DE",
+      "indicator_name": "GDP Growth",
+      "value": -0.3,
+      "previous": -0.1,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "Destatis"
+    },
+    {
+      "country": "DE",
+      "indicator_name": "Inflation Rate",
+      "value": 2.9,
+      "previous": 3.2,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "Destatis"
+    }
+  ],
+  "macro_fr": [
+    {
+      "country": "FR",
+      "indicator_name": "GDP Growth",
+      "value": 0.9,
+      "previous": 0.7,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "INSEE"
+    },
+    {
+      "country": "FR",
+      "indicator_name": "Inflation Rate",
+      "value": 2.7,
+      "previous": 3.0,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "INSEE"
+    }
+  ],
+  "macro_it": [
+    {
+      "country": "IT",
+      "indicator_name": "GDP Growth",
+      "value": 0.7,
+      "previous": 0.5,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "ISTAT"
+    }
+  ],
+  "macro_es": [
+    {
+      "country": "ES",
+      "indicator_name": "GDP Growth",
+      "value": 2.1,
+      "previous": 1.8,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "INE"
+    }
+  ],
+  "macro_ca": [
+    {
+      "country": "CA",
+      "indicator_name": "GDP Growth",
+      "value": 1.8,
+      "previous": 1.5,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "Statistics Canada"
+    }
+  ],
+  "macro_au": [
+    {
+      "country": "AU",
+      "indicator_name": "GDP Growth",
+      "value": 1.4,
+      "previous": 1.2,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "ABS"
+    }
+  ],
+  "macro_br": [
+    {
+      "country": "BR",
+      "indicator_name": "GDP Growth",
+      "value": 2.3,
+      "previous": 2.0,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "IBGE"
+    }
+  ],
+  "macro_in": [
+    {
+      "country": "IN",
+      "indicator_name": "GDP Growth",
+      "value": 7.6,
+      "previous": 7.2,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "quarterly",
+      "source": "Ministry of Statistics"
+    },
+    {
+      "country": "IN",
+      "indicator_name": "Inflation Rate",
+      "value": 5.1,
+      "previous": 5.5,
+      "unit": "%",
+      "timestamp": "2026-02-07T14:44:00",
+      "frequency": "monthly",
+      "source": "Ministry of Statistics"
+    }
+  ],
+  "market_headlines": [
+    {
+      "title": "US GDP Growth Beats Estimates at 2.4% in Q4",
+      "summary": "The US economy expanded 2.4% in the fourth quarter, beating expectations of 2.0%, driven by strong consumer spending and exports.",
+      "timestamp": "2026-02-07T14:30:00",
+      "url": "https://tradingeconomics.com/united-states/gdp-growth",
+      "source": "Trading Economics",
+      "category": "Economy",
+      "sentiment": "positive"
+    },
+    {
+      "title": "ECB Keeps Interest Rates Unchanged at 4.50%",
+      "summary": "The European Central Bank maintained its key interest rate at 4.50%, signaling that inflation is moving towards its 2% target.",
+      "timestamp": "2026-02-07T13:00:00",
+      "url": "https://tradingeconomics.com/euro-area/interest-rate",
+      "source": "ECB Press",
+      "category": "Monetary Policy",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "China Manufacturing PMI Rises to 50.9 in January",
+      "summary": "China's factory activity expanded for the first time in months, with the Manufacturing PMI reaching 50.9, indicating economic recovery.",
+      "timestamp": "2026-02-07T11:00:00",
+      "url": "https://tradingeconomics.com/china/manufacturing-pmi",
+      "source": "NBS China",
+      "category": "PMI",
+      "sentiment": "positive"
+    }
+  ],
+  "earnings_announcements": [
+    {
+      "title": "Apple Q1 2026 Earnings: $1.20 EPS (Est. $1.15)",
+      "summary": "Apple reported quarterly earnings of $1.20 per share, beating analyst estimates of $1.15, with revenue of $119.6 billion.",
+      "timestamp": "2026-02-07T16:00:00",
+      "url": "https://tradingeconomics.com/aapl/earnings",
+      "source": "Apple IR",
+      "category": "Earnings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Microsoft Q2 2026 Earnings: $2.45 EPS (Est. $2.38)",
+      "summary": "Microsoft reported cloud-driven growth with earnings of $2.45 per share, exceeding the $2.38 consensus estimate.",
+      "timestamp": "2026-02-06T16:00:00",
+      "url": "https://tradingeconomics.com/msft/earnings",
+      "source": "Microsoft IR",
+      "category": "Earnings",
+      "sentiment": "positive"
+    }
+  ],
+  "dividend_news": [
+    {
+      "title": "Microsoft Raises Quarterly Dividend to $0.75",
+      "summary": "Microsoft announced a 10% increase in its quarterly dividend to $0.75 per share, payable on March 14, 2026.",
+      "timestamp": "2026-02-06T10:00:00",
+      "url": "https://tradingeconomics.com/msft/dividend",
+      "source": "Microsoft IR",
+      "category": "Dividends",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Johnson & Johnson Increases Dividend for 61st Year",
+      "summary": "J&J raised its quarterly dividend by 5.4%, marking 61 consecutive years of dividend increases.",
+      "timestamp": "2026-02-05T14:00:00",
+      "url": "https://tradingeconomics.com/jnj/dividend",
+      "source": "J&J PR",
+      "category": "Dividends",
+      "sentiment": "positive"
+    }
+  ],
+  "metadata": {
+    "scraped_at": "2026-02-07T14:44:00Z",
+    "pipeline_version": "1.0.0",
+    "data_sources": {
+      "markets": [
+        "https://tradingeconomics.com/forex",
+        "https://tradingeconomics.com/indices",
+        "https://tradingeconomics.com/commodities",
+        "https://tradingeconomics.com/bonds",
+        "https://tradingeconomics.com/crypto",
+        "https://tradingeconomics.com/stocks"
+      ],
+      "macro": "https://tradingeconomics.com/macro",
+      "news": "https://tradingeconomics.com/news"
+    },
+    "retry_config": {
+      "max_retries": 3,
+      "backoff_factor": 0.5,
+      "status_forcelist": [429, 500, 502, 503, 504]
+    },
+    "rate_limit_delay": 5.0,
+    "http_timeout": 30.0,
+    "selectors_used": [
+      "product_list",
+      "forex_rows",
+      "commodity_rows",
+      "macro_table"
+    ],
+    "user_agent_rotation": true,
+    "robots_txt_compliance": true
+  },
+  "errors": []
+}

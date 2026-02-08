@@ -30,6 +30,18 @@ from parsers.headlines import (
     parse_all_news_categories,
 )
 
+from parsers.etfs import (
+    parse_etfs,
+    parse_etfs_with_fallback,
+    DEFAULT_ETFS,
+)
+
+from parsers.derivatives import (
+    parse_derivatives,
+    parse_derivatives_with_fallback,
+    DEFAULT_DERIVATIVES,
+)
+
 __all__ = [
     # Markets
     "parse_commodities",
@@ -50,4 +62,12 @@ __all__ = [
     # Headlines
     "parse_headlines",
     "parse_all_news_categories",
+    # ETFs
+    "parse_etfs",
+    "parse_etfs_with_fallback",
+    "DEFAULT_ETFS",
+    # Derivatives
+    "parse_derivatives",
+    "parse_derivatives_with_fallback",
+    "DEFAULT_DERIVATIVES",
 ]

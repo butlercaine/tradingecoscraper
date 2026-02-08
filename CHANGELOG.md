@@ -2,6 +2,22 @@
 
 # Changelog
 
+## v1.1.0 (2026-02-07)
+
+### Added
+- ETFs parser (`parsers/etfs.py`) - 10+ ETFs (SPY, QQQ, IWM, VTI, VOO, etc.)
+- Derivatives parser (`parsers/derivatives.py`) - VIX, S&P futures, and more
+
+### Fixed
+- URL regex in `models.py` - Updated for Python 3.14 compatibility
+- Test fixtures - Regenerated to match actual DOM structure
+
+### Changed
+- `config.py` - Added ETFs and Derivatives selectors
+- `models.py` - Added ETFS and DERIVATIVES to MarketCategory enum
+
+---
+
 ## v1.0.0 (2026-02-07)
 
 ### Added
